@@ -11,7 +11,7 @@ import math
 import os
 
 video = []
-with open("C://JTT/jab4") as f:
+with open("C://JTT/jab5") as f:
         for line in f.readlines():
             video.append([i.split(",") for i in line.split(";")])
             
